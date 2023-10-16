@@ -93,23 +93,23 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'amediphoko_pinagare',
         'USER': 'amediphoko_pinagare',
-        'PASSWORD': 'gah+w2Tu',
+        'PASSWORD': '',
         'HOST': 'mysql.db.mdbgo.com',
         'PORT': '3306'
     }
 }
 
-TWILIO_ACCOUNT_SID = 'AC3c53d0e155bf49d2c71ab3d84cdf6552'
-TWILIO_AUTH_TOKEN = '0a43d8d93f7a5d3a3cf3bf0786a5b7db'
+TWILIO_ACCOUNT_SID = ''
+TWILIO_AUTH_TOKEN = ''
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
 EMAIL_HOST = 'smtp.office365.com'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
-DEFAULT_FROM_EMAIL = 'admin@bhp.org.bw'
-EMAIL_HOST_USER = 'admin@bhp.org.bw'
-EMAIL_HOST_PASSWORD = 'V$3z^z{=WMcu'
+DEFAULT_FROM_EMAIL = ''
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
 
 STATIC_ROOT = os.path.join(BASE_DIR, APP_NAME, 'static')
 STATIC_URL = '/static/'
